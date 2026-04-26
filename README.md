@@ -181,13 +181,15 @@ YoY Customer Growth % = ([Customer Count] - [LY Customers]) / [LY Customers] * 1
 
 ### **🎨 Design Standards**
 Color Scheme
-  Element	            Color	              Purpose
-Primary/Revenue	 #6B4423 (Brown)	Main data, emphasis
-Profit/Success	 #28A745 (Green)	Positive metrics
-Volume  	 #0C3B66 (Navy)	Orders, counts
-Target/Highlight #D4A574 (Gold)	Targets, alerts
-Text	         #333333 (Dark Gray)	Labels, readability
-Background	 #F5F5F5 (Light Gray)	Page background
+
+| Element | Color| Purpose|
+|---|---|---|
+| Primary/Revenue | #6B4423 (Brown)	| Main data, emphasis |
+| Profit/Success | #28A745 (Green) | Positive metrics |
+| Volume | #0C3B66 (Navy) | Orders, counts |
+| Target/Highlight | #D4A574 (Gold) | Targets, alerts |
+| Text | #333333 (Dark Gray) | Labels, readability |
+| Background | #F5F5F5 (Light Gray) | Page background |
 
 ---
 
