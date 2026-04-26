@@ -2,9 +2,9 @@
 # Sales-analysis-dashboard
 ## Recommended Structure and Order
 ### 1.	Project Title / Headline
-A concise, descriptive name for the dashboard./n
-Example: /n
-🍫 Chocolate Sales Dashboard 2023-2024 /n
+A concise, descriptive name for the dashboard.
+Example:
+🍫 Chocolate Sales Dashboard 2023-2024
 **An interactive 3-page Power BI analytics dashboard analyzing $14.22M in chocolate sales across 100 stores, 6 countries, and 37,109 customers over 2 years.**
 
 ### 2.	Data Source
