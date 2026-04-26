@@ -146,6 +146,8 @@ Sales (Fact: 557,679 transactions)
 - Removed duplicate order IDs
 - **Result**: 557K validated transactions from 1M+ raw
 
+---
+
 ### **DAX Measures (12 Essential)**
 ```dax
 Total Revenue = SUM(Sales[revenue])
@@ -174,6 +176,7 @@ YoY Customer Growth % = ([Customer Count] - [LY Customers]) / [LY Customers] * 1
     Type: Dropdown (2023, 2024, or both)
     Benefit: Single source of truth; prevents conflicting filters across pages
 
+---
 
 ### **🎨 Design Standards**
 Color Scheme
@@ -185,12 +188,15 @@ Target/Highlight #D4A574 (Gold)	Targets, alerts
 Text	         #333333 (Dark Gray)	Labels, readability
 Background	 #F5F5F5 (Light Gray)	Page background
 
+---
+
 Date Format
 
     Format: DD/MM/YYYY (18/04/2026)
     Reason: Source data from Indian system; prevents locale errors when region is changed
     Note: Power BI set to India locale to maintain consistency
 
+---
 
 📈 Key Performance Indicators
 Financial
@@ -217,6 +223,7 @@ Customer
     Loyalty Members: 18,669 (50.4% penetration)
     Target Demographic: 35-54 age group (76% of revenue)
 
+---
 
 🔍 Known Limitations & Considerations
 Date Format (DD/MM/YYYY)
@@ -231,6 +238,8 @@ Calculated Columns
     Product_Grouping: Concatenated field ensures uniqueness but increases data size slightly
     Age_Group: Hardcoded ranges; would implement dynamic grouping if age distribution changes
 
+---
+
 🚀 Future Improvements (v2.0)
 
     RFM Segmentation: Identify high-value, at-risk, lost customers
@@ -240,12 +249,16 @@ Calculated Columns
     Drill-Through Navigation: Click products → detailed product performance
     What-If Scenarios: Model business decisions (e.g., discount impact)
 
+---
+
 📊 Files Included
 
     Chocolate_Sales_Dashboard.pbix – Main Power BI file
     README.md – This documentation
     DATA_DICTIONARY.md – Field definitions
     Screenshots (JPG) – Preview images of all 3 pages
+
+---
 
 👤 About This Project
 
@@ -257,7 +270,7 @@ Built as a portfolio project to demonstrate:
     ✅ Business acumen (metrics answer real questions)
     ✅ Design thinking (visual hierarchy, color, usability)
 
-
+---
 
 ## 🚀 How to Use
 
@@ -277,6 +290,6 @@ Built as a portfolio project to demonstrate:
 
 ### .	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text]()
-Example: ![Dashboard Preview](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%201%20-%20Executive%20Summary.jpg)
-(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%202%20-%20Product%20Performance%20Analysis.jpg)
-(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%203%20-%20Store%20%26%20Customer%20Performance%20Analysis.jpg)
+Example: ![Dashboard Preview](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/main/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%201%20-%20Executive%20Summary.jpg?raw=true)
+(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/main/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%202%20-%20Product%20Performance%20Analysis.jpg?raw=true)
+(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/main/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%203%20-%20Store%20&%20Customer%20Performance%20Analysis.jpg?raw=true)
