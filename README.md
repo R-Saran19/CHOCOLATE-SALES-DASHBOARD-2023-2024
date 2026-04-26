@@ -160,16 +160,14 @@ LY Revenue = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Calendar[date]))
 YoY Revenue Growth % = ([Total Revenue] - [LY Revenue]) / [LY Revenue] * 100
 YoY Customer Growth % = ([Customer Count] - [LY Customers]) / [LY Customers] * 100
 
-Calculated Columns
-
+### **Calculated Columns**
     Product_Grouping = Concatenated Brand + Product Name + Category + Weight
         Why: Original product names had duplicates; concatenation creates unique identifiers
         Example: "Ferrero | Dark Chocolate 50% | Dark | 100g"
-
     Age_Group = Bucketed customers into age ranges (18-24, 25-34, 35-44, 45-54, 55-64, 65+)
         Why: Enables demographic segmentation and easier visualization
 
-Global Year Filter
+### **Global Year Filter**
 
     Location: Filter pane (right side)
     Scope: All 3 pages
@@ -177,7 +175,7 @@ Global Year Filter
     Benefit: Single source of truth; prevents conflicting filters across pages
 
 
-🎨 Design Standards
+### **🎨 Design Standards**
 Color Scheme
   Element	            Color	              Purpose
 Primary/Revenue	 #6B4423 (Brown)	Main data, emphasis
@@ -279,7 +277,6 @@ Built as a portfolio project to demonstrate:
 
 ### .	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text]()
-Example: ![Dashboard Preview]()
-https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%201%20-%20Executive%20Summary.jpg
-https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%202%20-%20Product%20Performance%20Analysis.jpg
-https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%203%20-%20Store%20%26%20Customer%20Performance%20Analysis.jpg
+Example: ![Dashboard Preview](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%201%20-%20Executive%20Summary.jpg)
+(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%202%20-%20Product%20Performance%20Analysis.jpg)
+(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/22a8ae8b757ab169976f0c08a09975d25a5caa95/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%203%20-%20Store%20%26%20Customer%20Performance%20Analysis.jpg)
