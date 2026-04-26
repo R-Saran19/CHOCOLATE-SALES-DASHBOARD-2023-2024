@@ -161,6 +161,7 @@ Revenue Achievement % = [Total Revenue] / [Revenue Target] * 100
 LY Revenue = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Calendar[date]))
 YoY Revenue Growth % = ([Total Revenue] - [LY Revenue]) / [LY Revenue] * 100
 YoY Customer Growth % = ([Customer Count] - [LY Customers]) / [LY Customers] * 100
+```
 
 ### **Calculated Columns**
     Product_Grouping = Concatenated Brand + Product Name + Category + Weight
