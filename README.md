@@ -291,6 +291,7 @@ Built as a portfolio project to demonstrate:
 
 ### .	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text]()
-Example: ![Dashboard Preview](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/main/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%201%20-%20Executive%20Summary.jpg?raw=true)
-(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/main/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%202%20-%20Product%20Performance%20Analysis.jpg?raw=true)
-(https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/main/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%203%20-%20Store%20&%20Customer%20Performance%20Analysis.jpg?raw=true)
+Example: ![Dashboard Preview](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/2c79750fccf97d2077b2c39d3ce45a997a3254a8/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%201%20-%20Executive%20Summary.jpg)
+[](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/2c79750fccf97d2077b2c39d3ce45a997a3254a8/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%202%20-%20Product%20Performance%20Analysis.jpg)
+[](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/2c79750fccf97d2077b2c39d3ce45a997a3254a8/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%203%20-%20Store%20%26%20Customer%20Performance%20Analysis.jpg)
+
