@@ -15,7 +15,7 @@ Source:  https://www.kaggle.com/
 The dataset contains **557,679 transaction records** from a global chocolate retail chain  operating **100 stores** across **6 countries** (USA, UK, Canada, France, Australia, Germany),  capturing detailed sales data spanning two years (2023–2024). It includes store location,  sales channel type (Airport, Mall, Online, Retail), product details (200 items from 6 brands  across 5 categories), transaction date, quantity, unit price, discount, revenue, cost, and  profit metrics, along with customer demographics (37,109 unique customers with age, gender,  and loyalty status). This comprehensive dataset enables sales performance analysis, product  portfolio optimization, geographic market insights, customer segmentation, trend visualization,  and strategic business reporting in Power BI.
 
 
-## 📊 Quick Overview
+### 3. 📊 Quick Overview
 
 | Metric | Value |
 |--------|-------|
@@ -28,7 +28,7 @@ The dataset contains **557,679 transaction records** from a global chocolate ret
 | **Data Period** | Jan 2023 - Dec 2024 |
 
 
-## 🎯 Business Problem & Solution
+### 4.🎯 Business Problem & Solution
 
 ### **The Challenge**
 - 100 stores across 6 countries with no visibility into performance
@@ -39,20 +39,20 @@ The dataset contains **557,679 transaction records** from a global chocolate ret
 ### **The Solution**
 This 3-page Power BI dashboard enables:
 - ✅ Real-time visibility into revenue, profit, and growth metrics
-- ✅ Product performance analysis (top 10 products = 51% of revenue)
+- ✅ Product performance analysis (top 10 products = 10.11% of revenue)
 - ✅ Geographic insights (Australia dominates at $3.57M)
-- ✅ Customer demographics (35-54 age group = 76% of revenue)
+- ✅ Customer demographics (35-54 age group = 19% of revenue)
 - ✅ Dynamic filtering by year across all pages
 
 ### **Business Impact**
-- **Marketing**: Target 35-54 age demographic (highest ROI)
-- **Inventory**: Focus on top 10 products (51% of revenue)
+- **Marketing**: Target 25-64 age demographic (highest ROI)
+- **Inventory**: Focus on top 10 products (10% of revenue)
 - **Expansion**: Scale to Australia (proven strong market)
 - **Channel Optimization**: Airport stores ($4.25M) outperform retail ($2.71M)
 
 ---
 
-## 📄 Dashboard Pages
+### 4. 📄 Dashboard Pages
 
 ### **PAGE 1: Executive Summary**
 **Purpose:** C-level overview (2-minute read)
@@ -77,16 +77,16 @@ This 3-page Power BI dashboard enables:
 **Purpose:** Product mix & profitability deep-dive (5-minute read)
 
 **Key Visuals:**
-- **Top 10 Products Bar**: Ferrero Dark Chocolate leads ($146.19K)
+- **Top 10 Products Bar**: Ferrero|Dark Chocolate 50%|Dark|200g leads ($146.19K)
 - **Category Revenue Donut**: Dark (22.63%), White (20.94%), Truffle (20.03%), Milk (18.98%), Praline (17.42%)
-- **Category Units Pie**: Dark (379K), White (351K), Truffle (336K) units
-- **Profit Margin by Category**: All categories ~40% (consistent pricing)
+- **Category Units Pie**: Dark (379K), White (351K), Truffle (336K) units, Milk (317k) units, Praline (292k) units
+- **Profit Margin by Category**: All categories ~40% (consistent pricing)    
 - **Category Summary Table**: 5 categories, 200 products, 40.01% avg margin
-- **Brand Revenue Column**: Ferrero $2.65M (18.6%), Cadbury $2.63M (18.4%)
-- **Product Unit Sales**: Top 10 products 17.3K-16.8K units each
+- **Brand Revenue Column**: Ferrero $2.65M (18.6%), Cadbury $2.63M (18.5%),  Lindt $2.49M (17.5%), Mars $2.33M (16.4%), Godiva $2.14M (15%), Hershey $1.99M (14%)     
+- **Product Unit Sales**: Top 10 products 16.8K - 17.3K units each
 
 **Key Insights:**
-- Top 10 products = 51% of revenue (focus investment here)
+- Top 10 products = 10.11% of revenue (focus investment here)
 - All categories have identical 40% margins (no margin-squeezed categories)
 - Ferrero & Cadbury = 37% of total sales (strong brand concentration)
 - Volume doesn't always equal revenue (White has high units but lower revenue)
@@ -97,22 +97,22 @@ This 3-page Power BI dashboard enables:
 **Purpose:** Geographic & demographic analysis (5-minute read)
 
 **Key Visuals:**
-- **Top 10 Stores Bar**: Stores 47, 98, 72 tied at $146K
+- **Top 10 Stores Bar**: Stores 47, 98, 72, 12 & 69 tied at $146K
 - **Revenue by Country Bar**: Australia $3.57M, Canada $2.55M, UK $2.27M, France $2.25M, USA $2.15M, Germany $1.43M
-- **Revenue by City Column**: Toronto $2.6M, London $2.3M, Paris $2.3M
-- **Store Type Pie**: Airport $4.25M (30%), Online $3.56M (25%), Mall $3.70M (26%), Retail $2.71M (19%)
-- **Loyalty Members Card**: 18,669 active members (50.4% penetration)
+- **Revenue by City Column**: Toronto $2.55M, London $2.27M, Paris $2.25M, New York City $2.15M, Sydney $1.86M, Melbourne $1.70M, Berlin $1.43M
+- **Store Type Pie**: Airport $4.25M (30%), Mall $3.70M (26%), Online $3.56M (25%), Retail $2.71M (19%)
+- **Loyalty Members Card**: 18,669 active members (50.3% penetration)
 - **YoY Customer Growth Card**: 36.74% increase
-- **Revenue by Age Group**: 35-54 age group drives $10.8M (76% of revenue)
+- **Revenue by Age Group**: 25-64 age group drives $10.73M (75% of revenue)
 
 **Key Insights:**
 - Australia is strategic market ($3.57M = 25% of revenue)
 - Airport stores unexpectedly outperform ($4.25M per location)
 - Retail underperforming vs potential ($2.71M needs investigation)
-- 35-54 age group is revenue sweet spot (tailor marketing here)
-- 50.4% loyalty penetration shows strong engagement
+- 25-64 age group is revenue sweet spot (tailor marketing here)
+- 50.3% loyalty penetration shows strong engagement
 
-## 🛠️ Technical Stack
+### 4. 🛠️ Technical Stack
 
 | Component | Tool | Details |
 |---|---|---|
@@ -126,7 +126,7 @@ This 3-page Power BI dashboard enables:
 
 ---
 
-## 📊 Data Model
+### 5. 📊 Data Model
 
 ```
 Sales (Fact: 557,679 transactions)
@@ -148,19 +148,27 @@ Sales (Fact: 557,679 transactions)
 
 ---
 
-### **DAX Measures (12 Essential)**
+### 6. **DAX Measures (19 Essential)**
 ```dax
-Total Revenue = SUM(Sales[revenue])
-Total Profit = SUM(Sales[profit])
-Total Orders = COUNTROWS(Sales)
-Customer Count = DISTINCTCOUNT(Sales[customer_id])
-Profit Margin % = [Total Profit] / [Total Revenue] * 100
-Avg Order Value = [Total Revenue] / [Total Orders]
-Revenue Target = 2500000
-Revenue Achievement % = [Total Revenue] / [Revenue Target] * 100
-LY Revenue = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Calendar[date]))
-YoY Revenue Growth % = ([Total Revenue] - [LY Revenue]) / [LY Revenue] * 100
-YoY Customer Growth % = ([Customer Count] - [LY Customers]) / [LY Customers] * 100
+Total Revenue = SUM(sales_updated[revenue])
+Total Profit = SUM(sales_updated[profit])
+Total Orders = DISTINCTCOUNT(sales_updated[order_id])
+Total Units Sold = SUM(sales_updated[quantity])
+Customer Count = DISTINCTCOUNT(sales_updated[customer_id])
+Avg Order Value = DIVIDE([Total Revenue],[Total Orders],0)
+Avg Profit Margin % = DIVIDE([Total Profit],[Total Revenue],0)
+Avg Profit per Order = DIVIDE([Total Profit],[Total Orders],0)
+CY Revenue = CALCULATE([Total Revenue],YEAR(sales_updated[order_date]) =  YEAR(MAX(sales_updated[order_date])))
+LY Revenue = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('calendar'[date]))
+YoY Revenue Growth % = DIVIDE([CY Revenue]-[LY Revenue],[LY Revenue],0)
+Revenue Target = [LY Revenue]*1.25
+Revenue Target % = DIVIDE([CY Revenue],[Revenue Target],0)
+Max gauge limit = [Revenue Target] * 1.5
+CY Customers = CALCULATE([Customer Count], YEAR(sales_updated[order_date]) = YEAR(MAX(sales_updated[order_date])))
+LY Customers = CALCULATE([Customer Count], SAMEPERIODLASTYEAR('calendar'[date]))
+YoY Customer Growth % = DIVIDE([Customer Count]-[LY Customers],[LY Customers],0)
+Loyalty Customers = CALCULATE(DISTINCTCOUNT(sales_updated[customer_id]), customers_updated[loyalty_member] = 1)
+Footer = "Last Updated: " & FORMAT(TODAY(),"dd/mm/yyyy") & " | Data Current: Dec 2024 | Chocolate Sales Analytics"
 ```
 
 ### **Calculated Columns**
@@ -179,7 +187,7 @@ YoY Customer Growth % = ([Customer Count] - [LY Customers]) / [LY Customers] * 1
 
 ---
 
-### **🎨 Design Standards**
+### 7. **🎨 Design Standards**
 Color Scheme
 
 | Element | Color| Purpose|
@@ -188,62 +196,62 @@ Color Scheme
 | Profit/Success | #28A745 (Green) | Positive metrics |
 | Volume | #0C3B66 (Navy) | Orders, counts |
 | Target/Highlight | #D4A574 (Gold) | Targets, alerts |
-| Text | #333333 (Dark Gray) | Labels, readability |
-| Background | #F5F5F5 (Light Gray) | Page background |
+| Text | #1A3A52 (Navy) | Labels, readability |
+| Background | #F5E6D3 (Cream) | Page background |
 
 ---
 
-Date Format
+### 8.Date Format
 
-    Format: DD/MM/YYYY (18/04/2026)
+    Format: DD/MM/YYYY (26/04/2026)
     Reason: Source data from Indian system; prevents locale errors when region is changed
     Note: Power BI set to India locale to maintain consistency
 
 ---
 
-📈 Key Performance Indicators
-Financial
+### 9.📈 Key Performance Indicators
+## Financial
 
     Revenue: $14.22M (tracked monthly, 43% YoY growth)
     Profit: $5.69M (40% margin consistency across portfolio)
-    Profit per Order: $10.20 (unit economics)
+    Avg Profit per Order: $10.20 (unit economics)
 
-Operational
+## Operational
 
     Total Orders: 557,679 (customer transaction volume)
     Units Sold: 1,673,720 (inventory/supply metric)
     Avg Order Value: $25.50 (customer economics)
 
-Growth & Performance
+## Growth & Performance
 
     YoY Revenue Growth: 43.31% (momentum validation)
     YoY Customer Growth: 36.74% (acquisition rate)
     Revenue Target Achievement: 114.64% (exceeding goals)
 
-Customer
+## Customer
 
     Unique Customers: 37,109 (market reach)
     Loyalty Members: 18,669 (50.4% penetration)
-    Target Demographic: 35-54 age group (76% of revenue)
+    Target Demographic: 25-64 age group (75% of revenue)
 
 ---
 
-🔍 Known Limitations & Considerations
-Date Format (DD/MM/YYYY)
+### 10.🔍 Known Limitations & Considerations
+## Date Format (DD/MM/YYYY)
 
     Current: DD/MM/YYYY format maintained to prevent locale errors
     Why: Source system is Indian; changing to US format causes Power Query errors
     Production Fix: Standardize to YYYY-MM-DD (ISO 8601) format in ETL layer
     Impact: Currently stable; would modernize for enterprise deployment
 
-Calculated Columns
+## Calculated Columns
 
     Product_Grouping: Concatenated field ensures uniqueness but increases data size slightly
     Age_Group: Hardcoded ranges; would implement dynamic grouping if age distribution changes
 
 ---
 
-🚀 Future Improvements (v2.0)
+### 11.🚀 Future Improvements (v2.0)
 
     RFM Segmentation: Identify high-value, at-risk, lost customers
     Predictive Forecasting: 6-month revenue forecast using time series
@@ -254,16 +262,15 @@ Calculated Columns
 
 ---
 
-📊 Files Included
+### 12.📊 Files Included
 
     Chocolate_Sales_Dashboard.pbix – Main Power BI file
     README.md – This documentation
-    DATA_DICTIONARY.md – Field definitions
     Screenshots (JPG) – Preview images of all 3 pages
 
 ---
 
-👤 About This Project
+### 13.👤 About This Project
 
 Built as a portfolio project to demonstrate:
 
@@ -275,7 +282,7 @@ Built as a portfolio project to demonstrate:
 
 ---
 
-## 🚀 How to Use
+### 14. 🚀 How to Use
 
 1. Download `Chocolate_Sales_Dashboard.pbix`
 2. Open in Power BI Desktop
