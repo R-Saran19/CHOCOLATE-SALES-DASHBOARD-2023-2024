@@ -13,7 +13,9 @@ Example:
 Source:  https://www.kaggle.com/
 
 The dataset contains **557,679 transaction records** from a global chocolate retail chain,  capturing detailed sales data across multiple store locations, product categories, and  customer interactions. It spans two years (2023–2024) and provides insights into store  performance, product popularity, purchasing behavior, and customer demographics.  
+
 The dataset includes information such as store name, store location (city and country),  sales channel type (Airport, Mall, Online, Retail), product name, brand, product category  (chocolate type), transaction date, quantity sold, unit price, discount applied, and total  sales amount, along with cost and profit metrics. Additionally, it captures customer  demographics including age, gender, and loyalty program membership status, making it ideal  for sales performance analysis, product portfolio optimization, geographic market analysis,  customer segmentation, trend visualization, and comprehensive business reporting in Power BI.  
+
 The data covers **100 retail stores** distributed across **6 countries** (USA, UK, Canada,  France, Australia, Germany) with **37,109 unique customers** and **200 chocolate products**  from **6 major brands** (Ferrero, Cadbury, Lindt, Mars, Godiva, Hershey). With **557,679  validated transactions**, this dataset enables deep analysis of chocolate retail operations  including revenue optimization, inventory management, seasonal trend identification, and  customer targeting strategies.
 
 ### 3. 📊 Quick Overview
