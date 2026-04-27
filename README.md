@@ -114,6 +114,8 @@ This 3-page Power BI dashboard enables:
 - 25-64 age group is revenue sweet spot (tailor marketing here)
 - 50.3% loyalty penetration shows strong engagement
 
+---
+
 ### 4. 🛠️ Technical Stack
 
 | Component | Tool | Details |
@@ -300,7 +302,7 @@ Built as a portfolio project to demonstrate:
 **Dashboard Version:** 1.0
 
 
-### .	Screenshots / Demos
+### Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text]()
 Example: ![Dashboard Preview - Page 1](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/2c79750fccf97d2077b2c39d3ce45a997a3254a8/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%201%20-%20Executive%20Summary.jpg)
 ![Dashboard Preview - Page 2](https://github.com/R-Saran19/CHOCOLATE-SALES-DASHBOARD-2023-2024/blob/2c79750fccf97d2077b2c39d3ce45a997a3254a8/CHOCOLATE%20SALES%20DASHBOARD%20-%20Page%202%20-%20Product%20Performance%20Analysis.jpg)
