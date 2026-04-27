@@ -6,6 +6,8 @@ Example:
 🍫 Chocolate Sales Dashboard 2023-2024
 **An interactive 3-page Power BI analytics dashboard analyzing $14.22M in chocolate sales across 100 stores, 6 countries, and 37,109 customers over 2 years.**
 
+---
+
 ### 2.	Data Source
 More info on where the data comes from and how it’s structured
 Example:
@@ -16,6 +18,8 @@ The dataset contains **557,679 transaction records** from a global chocolate ret
 The dataset includes information such as store name, store location (city and country),  sales channel type (Airport, Mall, Online, Retail), product name, brand, product category  (chocolate type), transaction date, quantity sold, unit price, discount applied, and total  sales amount, along with cost and profit metrics. Additionally, it captures customer  demographics including age, gender, and loyalty program membership status, making it ideal  for sales performance analysis, product portfolio optimization, geographic market analysis,  customer segmentation, trend visualization, and comprehensive business reporting in Power BI.  
 
 The data covers **100 retail stores** distributed across **6 countries** (USA, UK, Canada,  France, Australia, Germany) with **37,109 unique customers** and **200 chocolate products**  from **6 major brands** (Ferrero, Cadbury, Lindt, Mars, Godiva, Hershey). With **557,679  validated transactions**, this dataset enables deep analysis of chocolate retail operations  including revenue optimization, inventory management, seasonal trend identification, and  customer targeting strategies.
+
+---
 
 ### 3. 📊 Quick Overview
 
@@ -29,6 +33,7 @@ The data covers **100 retail stores** distributed across **6 countries** (USA, U
 | **YoY Revenue Growth** | 43.31% |
 | **Data Period** | Jan 2023 - Dec 2024 |
 
+---
 
 ### 4.🎯 Business Problem & Solution
 
@@ -54,7 +59,7 @@ This 3-page Power BI dashboard enables:
 
 ---
 
-### 4. 📄 Dashboard Pages
+### 5. 📄 Dashboard Pages
 
 ### **PAGE 1: Executive Summary**
 **Purpose:** C-level overview (2-minute read)
@@ -116,7 +121,7 @@ This 3-page Power BI dashboard enables:
 
 ---
 
-### 4. 🛠️ Technical Stack
+### 6. 🛠️ Technical Stack
 
 | Component | Tool | Details |
 |---|---|---|
@@ -130,7 +135,7 @@ This 3-page Power BI dashboard enables:
 
 ---
 
-### 5. 📊 Data Model
+### 7. 📊 Data Model
 
 ```
 Sales (Fact: 557,679 transactions)
@@ -152,7 +157,7 @@ Sales (Fact: 557,679 transactions)
 
 ---
 
-### 6. **DAX Measures (19 Essential)**
+### 8. **DAX Measures (19 Essential)**
 ```dax
 Total Revenue = SUM(sales_updated[revenue])
 Total Profit = SUM(sales_updated[profit])
@@ -191,7 +196,7 @@ Footer = "Last Updated: " & FORMAT(TODAY(),"dd/mm/yyyy") & " | Data Current: Dec
 
 ---
 
-### 7. **🎨 Design Standards**
+### 9. **🎨 Design Standards**
 Color Scheme
 
 | Element | Color| Purpose|
@@ -205,7 +210,7 @@ Color Scheme
 
 ---
 
-### 8.Date Format
+### 10.Date Format
 
     Format: DD/MM/YYYY (26/04/2026)
     Reason: Source data from Indian system; prevents locale errors when region is changed
@@ -213,7 +218,7 @@ Color Scheme
 
 ---
 
-### 9.📈 Key Performance Indicators
+### 11.📈 Key Performance Indicators
 ## Financial
 
     Revenue: $14.22M (tracked monthly, 43% YoY growth)
@@ -240,7 +245,7 @@ Color Scheme
 
 ---
 
-### 10.🔍 Known Limitations & Considerations
+### 12.🔍 Known Limitations & Considerations
 ## Date Format (DD/MM/YYYY)
 
     Current: DD/MM/YYYY format maintained to prevent locale errors
@@ -255,7 +260,7 @@ Color Scheme
 
 ---
 
-### 11.🚀 Future Improvements (v2.0)
+### 13.🚀 Future Improvements (v2.0)
 
     RFM Segmentation: Identify high-value, at-risk, lost customers
     Predictive Forecasting: 6-month revenue forecast using time series
@@ -266,7 +271,7 @@ Color Scheme
 
 ---
 
-### 12.📊 Files Included
+### 14.📊 Files Included
 
     Chocolate_Sales_Dashboard.pbix – Main Power BI file
     README.md – This documentation
@@ -274,7 +279,7 @@ Color Scheme
 
 ---
 
-### 13.👤 About This Project
+### 15.👤 About This Project
 
 Built as a portfolio project to demonstrate:
 
@@ -286,7 +291,7 @@ Built as a portfolio project to demonstrate:
 
 ---
 
-### 14. 🚀 How to Use
+### 16. 🚀 How to Use
 
 1. Download `Chocolate_Sales_Dashboard.pbix`
 2. Open in Power BI Desktop
