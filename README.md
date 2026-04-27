@@ -44,7 +44,7 @@ This 3-page Power BI dashboard enables:
 - ✅ Real-time visibility into revenue, profit, and growth metrics
 - ✅ Product performance analysis (top 10 products = 10.11% of revenue)
 - ✅ Geographic insights (Australia dominates at $3.57M)
-- ✅ Customer demographics (35-54 age group = 19% of revenue)
+- ✅ Customer demographics (25-64 age group = 75% of revenue)
 - ✅ Dynamic filtering by year across all pages
 
 ### **Business Impact**
