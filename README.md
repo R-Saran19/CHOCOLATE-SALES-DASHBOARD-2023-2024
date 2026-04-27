@@ -1,6 +1,5 @@
 # CHOCOLATE-SALES-DASHBOARD-2023-2024
 # Sales-analysis-dashboard
-## Recommended Structure and Order
 ### 1.	Project Title / Headline
 A concise, descriptive name for the dashboard.
 Example:
