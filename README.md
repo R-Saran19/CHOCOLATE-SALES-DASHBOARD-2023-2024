@@ -46,7 +46,7 @@ This 3-page Power BI dashboard enables:
 
 ### **Business Impact**
 - **Marketing**: Target 25-64 age demographic (highest ROI)
-- **Inventory**: Focus on top 10 products (10% of revenue)
+- **Inventory**: Focus on top 10 products (10.11% of revenue)
 - **Expansion**: Scale to Australia (proven strong market)
 - **Channel Optimization**: Airport stores ($4.25M) outperform retail ($2.71M)
 
