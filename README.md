@@ -65,7 +65,7 @@ This 3-page Power BI dashboard enables:
 **Purpose:** C-level overview (2-minute read)
 
 **Key Visuals:**
-- **KPI Cards**: Revenue ($14.22M), Profit ($5.69M), Orders (557K), Customers (37K), Units (1.67M)
+- **Cards**: Revenue ($14.22M), Profit ($5.69M), Orders (557K), Customers (37K), Units (1.67M)
 - **Revenue Achievement Gauge**: 114.64% of target (exceeding goals)
 - **YoY Growth Card**: 43.31% revenue increase
 - **Unit Economics Cards**: Avg profit/order ($10.20), Avg order value ($25.50), Avg margin (40.01%)
